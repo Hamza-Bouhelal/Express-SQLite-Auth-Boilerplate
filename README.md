@@ -35,3 +35,14 @@ The class `dbManager` provides a method to create a db.sqlite3 database, connect
     await UserManager.find({{name: "John"}}, async (users: UserModal[]) => {
         console.log(users);
     });
+
+## Installation:
+
+```
+git clone https://github.com/Hamza-Bouhelal/Express-SQLite-Auth-Boilerplate.git
+cd Express-SQLite-Auth-Boilerplate
+mkdir db
+copy .env.default .env
+yarn
+yarn dev
+```
