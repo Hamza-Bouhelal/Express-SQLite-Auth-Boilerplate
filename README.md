@@ -6,7 +6,7 @@ This project is a boilerplate project that provides a complete solution for buil
 2. Authentification using jsonwebtoken
 3. Joi validation
 
-###dbManager:
+### dbManager:
 The class `dbManager` provides a method to create a db.sqlite3 database, connect to it using package sqlite3, and provide a method that implements the factory design pattern to initiate instance of the `EntityManager`, A simple example of how to make use of it:
 
     interface UserModal extends EntityInterface {
